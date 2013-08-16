@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="dark_green">#088A08</color>
+	<color name="dark_red">#8A0808</color>
+	<color name="sky_color">#6698FF</color>	
+	<color name="version_bkgrd">#0000A0</color>
+	<color name="welcome_color">#FFFF0F</color>
+	<color name="layout_bkgrd">#0000FF</color>
+	<color name="menu_color">#FFFF0F</color>
+	<color name="linkcolor">#0101ED</color>
+	<color name="main_help_color">#FFFF0F</color>
+	<color name="new_mod_title_color">#FFFF0F</color>
+	<color name="new_mod_file_color">#FFFF0F</color>
+	<color name="white">#FFFFFF</color>
+	<color name="black">#000000</color>
+	<color name="t1bkgrd">#E7F3D1</color>
+	<color name="t1bkgrd1">#BAC3AC</color>
+	<color name="t2bkgrd">#D1E4BB</color>
+	<color name="t2bkgrd1">#9fa791</color>
+	<color name="t21bkgrd1">#25404a</color>
+	<color name="t22bkgrd1">#99a88f</color>
+	<color name="t23bkgrd1">#25404a</color>
+	<color name="grey">#595454</color>
+	<color name="yellow">#FDD017</color>
+	<color name="yellowoff">#D4A017</color>
+	<color name="transparent">#00000000</color>
+	
+</resources>

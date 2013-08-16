@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+    
+    <LinearLayout android:id="@+id/layout_confirm"
+        android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+        >
+	   <RelativeLayout
+	        android:id="@+id/headerview_realtiveLay"
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:background="@drawable/banner1" >
+	
+			<TextView 
+			    android:layout_width="fill_parent"
+	        	android:layout_height="fill_parent"
+	        	android:gravity="center"
+	        	android:text="我的士林卡"
+	        	android:textSize="20dp"
+	        	android:textColor="#FFFFFF"
+			    />
+	    </RelativeLayout>
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="20dp"
+	        android:text="請先進行虛擬卡開通服務(卡號需大寫)"
+	        android:background="@drawable/banner_gray"
+	        android:textColor="#FFFFFF"
+	        android:gravity="center_vertical"
+	        />
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	       	android:layout_height="fill_parent"
+	       	android:gravity="center"
+	       	android:orientation="vertical"
+	       	>
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            >
+	            <TextView
+	                android:layout_width="wrap_content"
+	            	android:layout_height="wrap_content"
+	            	android:text="姓名"
+	            	android:textColor="#6B6B6B" 
+	                />
+	            <EditText android:id="@+id/edit_name"
+	                android:layout_width="200dp"
+	            	android:layout_height="wrap_content"
+	            	android:layout_marginLeft="5dp"
+	            	android:textColor="#4D4D4D" 
+	                />
+	        </LinearLayout>
+	        
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            >
+	            <TextView
+	                android:layout_width="wrap_content"
+	            	android:layout_height="wrap_content"
+	            	android:text="卡號"
+	            	android:textColor="#6B6B6B"  
+	                />
+	            <EditText android:id="@+id/edit_card_id"
+	                android:layout_width="200dp"
+	            	android:layout_height="wrap_content"
+	            	android:layout_marginLeft="5dp"
+	            	android:textColor="#4D4D4D"  
+	                />
+	        </LinearLayout>
+	        <Button android:id="@+id/button_confirm"
+	            android:layout_width="50dp"
+	           	android:layout_height="50dp"
+	            android:background="@drawable/button_comfirm"
+	            android:layout_marginLeft="90dp" 
+	            />
+	        
+	        <LinearLayout 
+	             android:layout_width="fill_parent"
+	             android:layout_height="wrap_content"
+	             android:orientation="horizontal"
+	             android:layout_marginTop="10dp"
+	            >
+	           	   <TextView
+	                android:layout_width="wrap_content"
+	            	android:layout_height="wrap_content"
+	            	android:text="*若尚未申請士林卡,請前往申請"
+	            	android:textColor="#6B6B6B"
+	            	android:layout_marginLeft="30dp"  
+	                />
+		           <Button android:id="@+id/button_applycard"
+		            android:layout_width="30dp"
+		           	android:layout_height="30dp"
+		            android:background="@drawable/detail"
+		            />
+	        </LinearLayout>
+	        <LinearLayout 
+	             android:layout_width="fill_parent"
+	             android:layout_height="wrap_content"
+	             android:orientation="horizontal"
+	             android:layout_marginTop="10dp"
+	            >
+	           	   <TextView
+	                android:layout_width="wrap_content"
+	            	android:layout_height="wrap_content"
+	            	android:text="*若尚開通士林卡或各聯名卡,請前往開卡"
+	            	android:textColor="#6B6B6B"
+	            	android:layout_marginLeft="30dp"   
+	                />
+		           <Button android:id="@+id/button_opencard"
+		            android:layout_width="30dp"
+		           	android:layout_height="30dp"
+		            android:background="@drawable/detail"
+		            />
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	  </LinearLayout>
+	
+        <RelativeLayout
+	        android:id="@+id/ad_banner_slycard"
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:background="@drawable/banner2" >
+    	</RelativeLayout>
+    
+	    <TextView android:id="@+id/textview_card_owner"
+					        android:layout_width="fill_parent"
+					        android:layout_height="20dp"
+					        android:text="持卡人:test  卡號:test"
+					        android:background="@drawable/banner_gray"
+					        android:textColor="#FFFFFF"
+					        android:gravity="center_vertical"
+					        android:paddingLeft="10dp"
+					        />
+        
+	    <ImageView android:id="@+id/imageview_card"
+	         android:layout_width="fill_parent"
+	         android:layout_height="150dp"
+	         android:layout_marginLeft="30dip"
+	         android:layout_marginRight="30dip" 
+	         android:layout_marginTop="30dp"
+	         />
+
+      <TextView	android:id="@+id/textview_card_deadline"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/banner_gray"
+		android:textColor="#FFFFFF"
+		android:gravity="center_vertical"
+	    android:duplicateParentState="true"
+	    android:ellipsize="marquee"
+	    android:fadingEdge="horizontal"
+	    android:focusable="true"
+	    android:focusableInTouchMode="true"
+	    android:marqueeRepeatLimit="marquee_forever"
+	    android:scrollHorizontally="true"
+	    android:singleLine="true"
+	    android:layout_marginTop="10dp"
+	    android:text="I like you because you are so beautiful it's great to see you darling!">
+	    <requestFocus
+	        android:duplicateParentState="true"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true" />
+		</TextView>
+</LinearLayout>

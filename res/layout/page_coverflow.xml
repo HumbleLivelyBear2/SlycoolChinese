@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+ 	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    >
+	
+	<LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/banner2" >
+     </LinearLayout>
+     
+	<RelativeLayout 
+	    android:layout_width="fill_parent"  
+		android:layout_height="fill_parent"
+		android:layout_gravity="center_horizontal"
+		>
+			<LinearLayout android:id="@+id/linearlayout_coverflow"
+		        android:layout_width="fill_parent"  
+		  		android:layout_height="fill_parent"
+		  		android:orientation="vertical"
+		        >
+				    <LinearLayout 
+				        android:layout_width="fill_parent"  
+				  		android:layout_height="fill_parent"
+				  		android:layout_weight="1"
+				  		android:orientation="vertical"
+				        >
+				        <com.sandj.coverflow.CoverFlow2
+						  android:id="@+id/cover_flow2"  
+						  android:layout_width="fill_parent"  
+						  android:layout_height="fill_parent" 
+						  android:layout_weight="1" 
+						  />  
+						<ImageView  
+						  android:id="@+id/imageview_bar"  
+						  android:layout_width="fill_parent"  
+						  android:layout_height="fill_parent"
+						  android:layout_weight="11"
+						  android:background="@drawable/galary_bar1"  
+						  />  
+				    </LinearLayout>
+				    
+				    <com.sandj.coverflow.CoverFlow1
+				        android:id="@+id/cover_flow"
+				        android:layout_width="fill_parent"  
+				  		android:layout_height="fill_parent"
+				  		android:layout_weight="1"
+				  		android:background="@drawable/bg_coverflow"
+				  		
+				        />
+			</LinearLayout>
+			 <RelativeLayout android:id="@+id/ad_banner_coverflow"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignBottom="@id/linearlayout_coverflow"
+		            android:layout_centerHorizontal="true"
+		            >
+		     </RelativeLayout>    
+	</RelativeLayout>
+</LinearLayout>

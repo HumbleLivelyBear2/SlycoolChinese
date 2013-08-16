@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+    
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/banner2" >
+     </LinearLayout>
+    
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+    <LinearLayout
+                android:id="@+id/slycool_news_image_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dip"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/slycool_news_image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="8dip" />
+                <!-- 主標 -->
+                <LinearLayout android:id="@+id/linearlayout_1"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_marginTop="5dp"
+                     android:visibility="gone">
+	                <TextView android:id="@+id/textview_title_1"
+				        android:layout_width="fill_parent"
+				        android:layout_height="20dp"
+				        android:text="主題好康"
+				        android:background="@drawable/banner_gray"
+				        android:textColor="#FFFFFF"
+				        android:gravity="center_vertical"
+				        android:paddingLeft="10dp"
+				        />
+	                <TextView android:id="@+id/textview_content_1"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="好康內容"
+				        android:gravity="center_vertical"
+				        android:paddingLeft="10dp"
+				        android:layout_marginTop="5dp"
+				        android:textSize="20dp"
+				        android:textColor="#4F4F4F"
+				        />
+                </LinearLayout>
+                <!-- 內標a -->
+                <LinearLayout android:id="@+id/linearlayout_2"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_marginTop="5dp"
+                     android:visibility="gone">
+	                <TextView android:id="@+id/textview_title_2"
+				        android:layout_width="fill_parent"
+				        android:layout_height="20dp"
+				        android:text="主題好康"
+				        android:background="@drawable/banner_gray"
+				        android:textColor="#FFFFFF"
+				        android:gravity="center_vertical"
+				        android:paddingLeft="10dp"
+				        />
+	                <TextView android:id="@+id/textview_content_2"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="好康內容"
+				        android:gravity="center_vertical"
+				        android:paddingLeft="10dp"
+				        android:layout_marginTop="5dp"
+				        android:textSize="20dp"
+				        android:textColor="#4F4F4F"
+				        />
+                </LinearLayout>
+                <!-- 內標b -->
+                <LinearLayout android:id="@+id/linearlayout_3"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_marginTop="5dp"
+                     android:visibility="gone">
+	                <TextView android:id="@+id/textview_title_3"
+				        android:layout_width="fill_parent"
+				        android:layout_height="20dp"
+				        android:text="主題好康"
+				        android:background="@drawable/banner_gray"
+				        android:textColor="#FFFFFF"
+				        android:gravity="center_vertical"
+				        android:paddingLeft="10dp"
+				        />
+	                <TextView android:id="@+id/textview_content_3"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="好康內容"
+				        android:gravity="center_vertical"
+				        android:paddingLeft="10dp"
+				        android:layout_marginTop="5dp"
+				        android:textSize="20dp"
+				        android:textColor="#4F4F4F"
+				        />
+                </LinearLayout>
+                <!-- 內標c -->
+                <LinearLayout android:id="@+id/linearlayout_4"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_marginTop="5dp"
+                     android:visibility="gone">
+	                <TextView android:id="@+id/textview_title_4"
+				        android:layout_width="fill_parent"
+				        android:layout_height="20dp"
+				        android:text="主題好康"
+				        android:background="@drawable/banner_gray"
+				        android:textColor="#FFFFFF"
+				        android:gravity="center_vertical"
+				        android:paddingLeft="10dp"
+				        />
+	                <TextView android:id="@+id/textview_content_4"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="好康內容"
+				        android:gravity="center_vertical"
+				        android:paddingLeft="10dp"
+				        android:layout_marginTop="5dp"
+				        android:textSize="20dp"
+				        android:textColor="#4F4F4F"
+				        />
+                </LinearLayout>
+                <!-- 延伸資訊 -->
+                <LinearLayout android:id="@+id/linearlayout_5"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_marginTop="5dp"
+                     android:visibility="gone"
+                     >
+	                <TextView android:id="@+id/textview_title_5"
+				        android:layout_width="fill_parent"
+				        android:layout_height="20dp"
+				        android:text="延伸資訊"
+				        android:background="@drawable/banner_gray"
+				        android:textColor="#FFFFFF"
+				        android:gravity="center_vertical"
+				        android:paddingLeft="10dp"
+				        />
+	                <TextView android:id="@+id/textview_content_5"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="好康內容"
+				        android:gravity="center_vertical"
+				        android:paddingLeft="10dp"
+				        android:layout_marginTop="5dp"
+				        android:textSize="20dp"
+				        android:textColor="#4F4F4F"
+				        />
+	                <LinearLayout android:id="@+id/linearlayout_info_link"
+	                    android:layout_width="fill_parent"
+                     	android:layout_height="wrap_content"
+                     	android:orientation="horizontal"
+                     	android:layout_marginTop="5dp"
+                     	android:visibility="gone"
+                     	>
+                    	<TextView 
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="前往"
+				        android:gravity="center_vertical"
+				        android:paddingLeft="10dp"
+				        android:textSize="20dp"
+				        android:textColor="#4F4F4F"
+				        /> 	
+	               	 	<Button android:id="@+id/more_info_link"
+	                    android:layout_width="30dp"
+				        android:layout_height="30dp"
+				        android:background="@drawable/detail"
+				        android:gravity="center_vertical"
+	                    />
+	                </LinearLayout>
+                </LinearLayout>
+                <!-- 過期日 -->
+                <LinearLayout android:id="@+id/linearlayout_6"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_marginTop="5dp"
+                     android:visibility="gone">
+	                <TextView android:id="@+id/textview_title_6"
+				        android:layout_width="fill_parent"
+				        android:layout_height="20dp"
+				        android:text="過期日"
+				        android:background="@drawable/banner_gray"
+				        android:textColor="#FFFFFF"
+				        android:gravity="center_vertical"
+				        android:paddingLeft="10dp"
+				        />
+	                <TextView android:id="@+id/textview_content_6"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="好康內容"
+				        android:gravity="center_vertical"
+				        android:paddingLeft="10dp"
+				        android:layout_marginTop="5dp"
+				        android:textSize="20dp"
+				        android:paddingBottom="20dp"
+				        android:textColor="#4F4F4F"
+				        />
+                </LinearLayout>
+    </LinearLayout>
+	</ScrollView>
+    
+
+</LinearLayout>

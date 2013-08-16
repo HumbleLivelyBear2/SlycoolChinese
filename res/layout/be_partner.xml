@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+    
+	
+    <RelativeLayout
+        android:id="@+id/headerview_realtiveLay"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/banner1" >
+
+		<TextView android:id="@+id/textview_store_title"
+		    android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+        	android:gravity="center"
+        	android:text="廠商合作"
+        	android:textColor="#FFFFFF"
+		    />
+    </RelativeLayout>
+    <ImageView
+         android:layout_width="fill_parent"
+         android:layout_height="120dp"
+         android:layout_marginLeft="8dip"
+         android:layout_marginRight="8dip" 
+         android:src="@drawable/app_icon"
+         android:layout_marginTop="5dp"
+         />
+    <TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="20dp"
+		android:text="廠商合作"
+		android:background="@drawable/banner_gray"
+		android:textColor="#FFFFFF"
+		android:gravity="center_vertical"
+		android:paddingLeft="10dp"
+		android:layout_marginTop="5dp"
+		 />
+    <TextView 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="請寄信至slyc@slycool.com  \n註明:廠商合作"
+		android:gravity="center_vertical"
+		android:paddingLeft="10dp"
+		android:layout_marginTop="5dp"
+		android:textSize="15dp"
+		android:textColor="#4F4F4F"
+		/>
+    
+</LinearLayout>

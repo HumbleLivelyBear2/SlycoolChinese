@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RestaurantAppActivity!</string>
+    <string name="app_name">士林任我行</string>
+    <string name="maptabtxt">Map</string>
+    <string name="listtabtxt">List</string>
+    <string name="newtabtxt">New</string>
+    <string name="recomendtabtxt">Recommend</string>
+    <string name="abouttabtxt">About Us</string>
+    <string name="abouttxt">About Us</string>
+    <string name="menutxt">Menu</string>
+    <string name="storetimetxt">Store Time</string>
+    <string name="smstxt">SMS</string>
+    <string name="emailtxt">E-mail</string>
+    <string name="facebooktxt">FaceBook</string>
+    <string name="canceltxt">Cancel</string>
+    <string name="phone_no_label">電話 :</string>
+    <string name="address_label"> 地址 :</string>
+    <string name="opentime_label">營業時間 :</string>
+    <string name="about_text_5"><u>service@abonus.com.tw</u></string>
+    <string name="network_msg">沒有互聯網連接，​​請稍後再試。</string>
+    <string name="server_failed_msg">從服務器錯誤解析響應</string>
+    <string name="make_call">你想打个电话吗？</string>
+    <string name="call">呼叫</string>
+    <string name="no_call">没有</string>
+    <string name="call_title">请致电</string>
+    <string name="gps_msg">GPS未正常工作</string>
+    <string name="ok">確定</string>
+    <string name="gps_reson_loc_null">不能在地圖上找到您的設備！</string>
+    <string name="caution">警告</string>
+    <string name="no_road_rout">没有通过道路出入口的路线..！</string>
+    <string name="no_menu_image">沒有菜單顯示</string>
+    <string name="menu_zoom">Zoom</string>
+    <string name="menu_pan">Pan</string>
+    <string name="menu_reset">Reset</string>
+    <string name="checkGPS">GPS未正常工作</string>
+	
+	<!-- from publish with fb -->
+    <string name="enable_gps_title">開啟GPS</string>
+    <string name="enable_gps">請開啓GPS</string>
+    <string name="gps_settings">GPS Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="nearby_places">找尋附近地點...</string>
+</resources>

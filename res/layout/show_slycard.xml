@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background" >
+    
+    <RelativeLayout
+        android:id="@+id/headerview_realtiveLay"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/banner2" >
+
+    </RelativeLayout>
+    
+    <TextView android:id="@+id/textview_card_owner"
+				        android:layout_width="fill_parent"
+				        android:layout_height="20dp"
+				        android:text="持卡人:test  卡號:test"
+				        android:background="@drawable/banner_gray"
+				        android:textColor="#FFFFFF"
+				        android:gravity="center_vertical"
+				        android:paddingLeft="10dp"
+				        />
+        
+	    <ImageView android:id="@+id/imageview_card"
+	         android:layout_width="fill_parent"
+	         android:layout_height="150dp"
+	         android:layout_marginLeft="8dip"
+	         android:layout_marginRight="8dip" 
+	         android:src="@drawable/card_b"
+	         android:layout_marginTop="30dp"
+	         />
+				        
+    
+    <TextView	android:id="@+id/textview_card_deadline"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/banner_gray"
+	android:textColor="#FFFFFF"
+	android:gravity="center_vertical"
+    android:duplicateParentState="true"
+    android:ellipsize="marquee"
+    android:fadingEdge="horizontal"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:scrollHorizontally="true"
+    android:singleLine="true"
+    android:layout_marginTop="10dp"
+    android:text="I like you because you are so beautiful it's great to see you darling!">
+    <requestFocus
+        android:duplicateParentState="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+	</TextView>
+    
+    
+</LinearLayout>

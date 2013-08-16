@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_dataShown"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:cacheColorHint="#00000000"
+    android:padding="5dip" >
+
+    <ImageView
+        android:id="@+id/imgViewLogo"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="center" 
+        android:background="@drawable/pic_loading"
+        >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@+id/imgViewLogo"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@+id/imgViewLogo"
+        android:singleLine="true"
+        android:text="Address"
+        android:textColor="@color/grey" >
+    </TextView>
+
+    <RelativeLayout
+        android:id="@+id/relative_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txtAddress"
+        android:layout_toRightOf="@+id/imgViewLogo" >
+
+        <TextView
+            android:id="@+id/txtDistances"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtAddress"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/imgViewLogo"
+            android:singleLine="true"
+            android:text="Distance"
+            android:textColor="@color/grey" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtStoreId_itemlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtDistances"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/imgViewLogo"
+            android:textColor="@color/black" >
+        </TextView>
+    </RelativeLayout>
+    <!-- </RelativeLayout> -->
+
+</RelativeLayout>

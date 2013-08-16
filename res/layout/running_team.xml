@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+    
+    <RelativeLayout
+        android:id="@+id/headerview_realtiveLay"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/banner1" >
+
+		<TextView android:id="@+id/textview_store_title"
+		    android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+        	android:gravity="center"
+        	android:text="營運製作團隊"
+        	android:textColor="#FFFFFF"
+		    />
+    </RelativeLayout>
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+	    <ImageView
+	         android:layout_width="fill_parent"
+	         android:layout_height="120dp"
+	         android:layout_marginLeft="8dip"
+	         android:layout_marginRight="8dip" 
+	         android:src="@drawable/app_icon"
+	         android:layout_marginTop="5dp"
+	         />
+	    <TextView 
+			android:layout_width="fill_parent"
+			android:layout_height="20dp"
+			android:text="營運團隊"
+			android:background="@drawable/banner_gray"
+			android:textColor="#FFFFFF"
+			android:gravity="center_vertical"
+			android:paddingLeft="10dp"
+			android:layout_marginTop="5dp"
+			 />
+	    <TextView
+	        android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="總策劃/士林卡執行長: 戴偉哲 \nApp程式設計:柯力中 \n廣告行銷/執行副理：王少芃 \n美術UI設計：鍾易衡\n會員服務部:陳佳蜜 \n店家關係部:張育群 \n店家開發組:耿瑋鍾 \n\n擴大徵求工作夥伴與義工夥伴! 歡迎加入士林青年卡團隊 \n請寄信至 slyc@slycool.com 註明:我也很熱血 ! :D \n士林任我行 APP 應用程式版權為士林夢工場所有 2012年9月"
+			android:gravity="center_vertical"
+			android:paddingLeft="10dp"
+			android:layout_marginTop="5dp"
+			android:textSize="15dp"
+			android:textColor="#4F4F4F"
+			/>
+    </LinearLayout>
+	</ScrollView>
+</LinearLayout>
